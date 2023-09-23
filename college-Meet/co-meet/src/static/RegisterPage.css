@@ -1,0 +1,22 @@
+
+.register-container{
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+}
+.register-container > form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.register-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
